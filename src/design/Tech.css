@@ -1,0 +1,15 @@
+.imgg{
+  height: 25px;
+}
+
+.row {
+  pad: 30px;
+  width: 50%;
+  list-style-type: none;
+}
+
+.likes {
+  display: flex;
+  padding-left: 110px;
+  padding-bottom: 15px;
+}

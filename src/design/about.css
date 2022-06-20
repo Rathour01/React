@@ -1,0 +1,28 @@
+.mainn{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 70px 0 70px 0;
+    background-color: antiquewhite;
+  }
+  
+  .s-main{
+    justify-content:center;
+    display: flex;
+    height: 850px;
+    width: 90%;
+    /* box-shadow: 11px 11px 11px 11px rgb(rgb(207, 203, 203)); */
+    padding-top: 15px;
+    padding-bottom: 2px;
+    border-radius: 25px;
+    background-color: white;
+  }
+  .sub {
+      padding: 20px;
+      /* margin: 15px; */
+      box-shadow: 5px 5px 5px 5px rgb(217, 221, 221);
+  }
+  .f{
+      font-size: 25px;
+      text-decoration: underline;
+  }
