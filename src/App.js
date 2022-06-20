@@ -10,10 +10,13 @@ import { Component } from 'react';
 import Home from './component/Home';
 import Contact from './component/contact';
 import About from './component/about';
+import { Provider } from 'react-redux/es/exports';
+import store from './component/store/index';
 class App extends Component{
 
   render() {
     return(
+      <Provider store={store}>
       <Router>
         <div>
           <ul className='menu'>
@@ -37,7 +40,7 @@ class App extends Component{
           </Routes>
         </div>
       </Router>
-       
+      </Provider>
     )
   }
 }
